@@ -11431,6 +11431,10 @@ html {
 }
 
 .masthead {
+  background-image:url(../assets/img/portfolio/space.gif);
+  background-repeat:  no-repeat;
+  background-size: cover;
+  width: auto;       
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
@@ -11497,10 +11501,18 @@ html {
   }
 }
 
+.about {
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(200, 200, 200, 1));
+}
+
+.contact {
+  background: linear-gradient(rgba(200, 200, 200, 1), rgba(100, 100, 100, 1));
+}
+
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgb(100,100,100);
+  background: linear-gradient(rgba(100, 100, 100, 1), rgba(50, 50, 50, 1));
   color: #fff;
 }
 
