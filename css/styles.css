@@ -11507,19 +11507,19 @@ html {
 }
 
 .portfolio-bg {
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(250, 250, 250, 1));
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(50, 50, 50, 1));
 }
 
 .skill {
-  background: linear-gradient(rgba(250, 250, 250, 1), rgba(210, 210, 210, 1));
+  background: linear-gradient(rgba(50, 50, 50, 1), rgba(200, 200, 200, 1));
 }
 
 .about {
-  background: linear-gradient(rgba(210, 210, 210, 1), rgba(200, 200, 200, 1));
+  background: linear-gradient(rgba(200, 200, 200, 1), rgba(150, 150, 150, 1));
 }
 
 .contact {
-  background: linear-gradient(rgba(200, 200, 200, 1), rgba(100, 100, 100, 1));
+  background: linear-gradient(rgba(150, 150, 150, 1), rgba(100, 100, 100, 1));
 }
 
 .footer {
@@ -11543,4 +11543,10 @@ table th {
 
 table td {
   padding : 20px 10px;
+}
+
+canvas {
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
