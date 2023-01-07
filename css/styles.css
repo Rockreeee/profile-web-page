@@ -7780,6 +7780,11 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.5) !important;
 }
 
+.text-black-75 {
+  --bs-text-opacity: 1;
+  color: rgba(0, 0, 0, 0.75) !important;
+}
+
 .text-white-50 {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
@@ -11501,12 +11506,20 @@ html {
   }
 }
 
+.portfolio-bg {
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(210, 210, 210, 1));
+}
+
+.skill {
+  background: linear-gradient(rgba(210, 210, 210, 1), rgba(150, 150, 150, 1));
+}
+
 .about {
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(200, 200, 200, 1));
+  background: linear-gradient(rgba(150, 150, 150, 1), rgba(125, 125, 125, 1));
 }
 
 .contact {
-  background: linear-gradient(rgba(200, 200, 200, 1), rgba(100, 100, 100, 1));
+  background: linear-gradient(rgba(125, 125, 125, 1), rgba(100, 100, 100, 1));
 }
 
 .footer {
@@ -11518,4 +11531,16 @@ html {
 
 .copyright {
   background-color: rgb(50,50,50);
+}
+
+table {
+  width: 100%;
+}
+
+table th {
+  padding : 20px 10px;
+}
+
+table td {
+  padding : 20px 10px;
 }
