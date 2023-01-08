@@ -264,15 +264,15 @@ function onMouseMove( event ) {
 
 }
 
-// function onTouchMove( event ) {
+function onTouchMove( event ) {
 
-//     touchInput = true;
+    touchInput = true;
 
-//     movePointer( event.touches[0].clientX, event.touches[0].clientY, true );
+    movePointer( event.touches[0].clientX, event.touches[0].clientY, true );
 
-//     event.preventDefault();
+    event.preventDefault();
 
-// }
+}
 
 function onMouseLeave() {
 
