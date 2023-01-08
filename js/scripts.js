@@ -256,13 +256,13 @@ function movePointer( x, y ) {
 
 }
 
-// function onMouseMove( event ) {
+function onMouseMove( event ) {
 
-//     touchInput = false;
+    touchInput = false;
 
-//     movePointer( event.clientX, event.clientY );
+    movePointer( event.clientX, event.clientY );
 
-// }
+}
 
 // function onTouchMove( event ) {
 
