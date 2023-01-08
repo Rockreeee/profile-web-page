@@ -256,27 +256,27 @@ function movePointer( x, y ) {
 
 }
 
-function onMouseMove( event ) {
+// function onMouseMove( event ) {
 
-    touchInput = false;
+//     touchInput = false;
 
-    movePointer( event.clientX, event.clientY );
+//     movePointer( event.clientX, event.clientY );
 
-}
+// }
 
-function onTouchMove( event ) {
+// function onTouchMove( event ) {
 
-    touchInput = true;
+//     touchInput = true;
 
-    movePointer( event.touches[0].clientX, event.touches[0].clientY, true );
+//     movePointer( event.touches[0].clientX, event.touches[0].clientY, true );
 
-    event.preventDefault();
+//     event.preventDefault();
 
-}
+// }
 
-function onMouseLeave() {
+// function onMouseLeave() {
 
-    pointerX = null;
-    pointerY = null;
+//     pointerX = null;
+//     pointerY = null;
 
-}
+// }
