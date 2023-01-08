@@ -274,9 +274,9 @@ function onMouseMove( event ) {
 
 // }
 
-// function onMouseLeave() {
+function onMouseLeave() {
 
-//     pointerX = null;
-//     pointerY = null;
+    pointerX = null;
+    pointerY = null;
 
-// }
+}
